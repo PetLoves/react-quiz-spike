@@ -1,22 +1,19 @@
 var quizQuestions = [
   {
-    question: 'What kind of animal do you want to rescue? ',
+    question: 'Do you have a garden? ',
     answers: [
       {
-        type: 'Stark',
-        content: 'Dog'
+        type: 1,
+        content: 'Yes'
       },
 
       {
-        type: 'Lannister',
-        content: 'Cat'
-      },
-      {
-        type: 'Targaryen',
-        content: 'Unicorn'
+        type: 0,
+        content: 'No'
       }
     ]
-  },
+  };
+  
   {
     question: 'What do you value most ? ',
     answers: [
@@ -50,41 +47,42 @@ var quizQuestions = [
         content: 'My Grandparent'
       }
     ]
-  },
-  {
-    question: 'Choose an element',
-    answers: [
-      {
-        type: 'Stark',
-        content: 'Water'
-      },
-      {
-        type: 'Lannister',
-        content: 'Air'
-      },
-      {
-        type: 'Targaryen',
-        content: 'Fire'
-      }
-    ]
-  },
-  {
-    question: ' Which Castle would you live in ? ',
-    answers: [
-      {
-        type: 'Stark',
-        content: 'Winterfell'
-      },
-      {
-        type: 'Lannister',
-        content: 'Casterly Rock'
-      },
-      {
-        type: 'Targaryen',
-        content: 'DragonStone'
-      }
-    ]
   }
-];
+//   {
+//     question: 'Choose an element',
+//     answers: [
+//       {
+//         type: 'Stark',
+//         content: 'Water'
+//       },
+//       {
+//         type: 'Lannister',
+//         content: 'Air'
+//       },
+//       {
+//         type: 'Targaryen',
+//         content: 'Fire'
+//       }
+//     ]
+//   },
+//   {
+//     question: ' Which Castle would you live in ? ',
+//     answers: [
+//       {
+//         type: 'Stark',
+//         content: 'Winterfell'
+//       },
+//       {
+//         type: 'Lannister',
+//         content: 'Casterly Rock'
+//       },
+//       {
+//         type: 'Targaryen',
+//         content: 'DragonStone'
+//       }
+//     ]
+//   }
+// ]; 
+
 
 export default quizQuestions;
