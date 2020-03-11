@@ -12,42 +12,42 @@ var quizQuestions = [
         content: 'No'
       }
     ]
-  };
-  
-  {
-    question: 'What do you value most ? ',
-    answers: [
-      {
-        type: 'Stark',
-        content: 'Loyalty'
-      },
-      {
-        type: 'Lannister',
-        content: 'Money'
-      },
-      {
-        type: 'Targaryen',
-        content: 'Power'
-      }
-    ]
-  },
-  {
-    question: "Who's your favorite family member ?",
-    answers: [
-      {
-        type: 'Stark',
-        content: 'My Parent'
-      },
-      {
-        type: 'Lannister',
-        content: 'My Sibling'
-      },
-      {
-        type: 'Targaryen',
-        content: 'My Grandparent'
-      }
-    ]
   }
+
+  // {
+  //   question: 'What do you value most ? ',
+  //   answers: [
+  //     {
+  //       type: 'Stark',
+  //       content: 'Loyalty'
+  //     },
+  //     {
+  //       type: 'Lannister',
+  //       content: 'Money'
+  //     },
+  //     {
+  //       type: 'Targaryen',
+  //       content: 'Power'
+  //     }
+  //   ]
+  // },
+  // {
+  //   question: "Who's your favorite family member ?",
+  //   answers: [
+  //     {
+  //       type: 'Stark',
+  //       content: 'My Parent'
+  //     },
+  //     {
+  //       type: 'Lannister',
+  //       content: 'My Sibling'
+  //     },
+  //     {
+  //       type: 'Targaryen',
+  //       content: 'My Grandparent'
+  //     }
+  //   ]
+  // }
 //   {
 //     question: 'Choose an element',
 //     answers: [
@@ -83,6 +83,6 @@ var quizQuestions = [
 //     ]
 //   }
 // ]; 
-
+];
 
 export default quizQuestions;
